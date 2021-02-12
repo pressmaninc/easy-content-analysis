@@ -1,0 +1,27 @@
+button.analyze {
+    background: none;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
+    height: 36px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 12px;
+    overflow: hidden;
+    
+    border: solid 1px #007cba;
+    border-radius: 3px;
+    color: #007cba;
+    transition: .1s;
+}
+
+button.analyze:hover {
+    background-color: #007cba;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: 600;
+}

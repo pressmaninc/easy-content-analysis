@@ -1,0 +1,62 @@
+.error-message {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.parcentages {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.parcentages ul {
+    width: 90%;
+}
+
+.item-0 {
+    color: rgb(255, 145, 66);
+}
+
+.item-1 {
+    color: rgb(100, 100, 100);
+}
+
+.item-2 {
+    color: rgb(4, 111, 241)
+}
+
+.chart {
+    width: 50%;
+    height: 150px;
+}
+button.analyze {
+    background: none;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
+    height: 36px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 12px;
+    overflow: hidden;
+    
+    border: solid 1px #007cba;
+    border-radius: 3px;
+    color: #007cba;
+    transition: .1s;
+}
+
+button.analyze:hover {
+    background-color: #007cba;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: 600;
+}
+
